@@ -11,7 +11,6 @@ namespace Blog.Extensions
             {
                 result.AddRange(item.Errors.Select(error => error.ErrorMessage));
             }
-
             return result;
         }
     }

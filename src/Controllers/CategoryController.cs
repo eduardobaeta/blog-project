@@ -1,6 +1,7 @@
 using Blog.Data;
 using Blog.Models;
 using Blog.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,7 @@ namespace Blog.src.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
+        [Authorize(Roles = "admin")]
         [HttpGet("v1/categories")]
         public async Task<IActionResult> GetAsync([FromServices] BlogDataContext context)
         {
@@ -16,6 +18,10 @@ namespace Blog.src.Controllers
             {
                 var categories = await context.Categories.AsNoTracking().ToListAsync();
                 return Ok(new ResultViewModel<List<Category>>(categories));
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                return Unauthorized(new ResultViewModel<string>("Invalid bearer token"));
             }
             catch (Exception e)
             {

@@ -55,3 +55,4 @@ C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\refint\Blog.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\Blog.pdb
 C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\Blog.genruntimeconfig.cache
 C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\ref\Blog.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\SecureIdentity.dll
