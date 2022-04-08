@@ -6,6 +6,7 @@ C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Blog.runtimeconfig.json
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Blog.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Blog.pdb
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
