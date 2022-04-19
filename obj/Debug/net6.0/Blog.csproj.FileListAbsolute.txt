@@ -21,6 +21,7 @@ C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.IdentityModel.Pro
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\SecureIdentity.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -55,4 +56,9 @@ C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\refint\Blog.dll
 C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\Blog.pdb
 C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\Blog.genruntimeconfig.cache
 C:\Users\Eduardo Baeta\Desktop\Blog\obj\Debug\net6.0\ref\Blog.dll
-C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\SecureIdentity.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\SendGrid.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\MailKit.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Eduardo Baeta\Desktop\Blog\bin\Debug\net6.0\BouncyCastle.Crypto.dll

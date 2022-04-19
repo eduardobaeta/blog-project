@@ -14,7 +14,9 @@ namespace Blog.src.Controllers
     {
 
         [HttpPost("v1/accounts")]
-        public async Task<IActionResult> Post([FromServices] BlogDataContext context, [FromBody] RegisterViewModel model)
+        public async Task<IActionResult> Post([FromServices] BlogDataContext context, 
+            [FromBody] RegisterViewModel model, 
+            [FromServices] EmailService emailService)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
@@ -32,10 +34,17 @@ namespace Blog.src.Controllers
                 
                 await context.Users.AddAsync(user);
                 await context.SaveChangesAsync();
+
+                emailService.Send(
+                    user.Name, 
+                    user.Email, 
+                    "Welcome to blog!", 
+                    $"Your password is {password}");
                 
                 return Ok(new ResultViewModel<dynamic>(new
                 {
-                    user = user.Email, password
+                    user = user.Email, 
+                    password
                 }));
             }
             catch (Exception e)
